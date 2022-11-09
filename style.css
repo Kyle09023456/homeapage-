@@ -1,0 +1,105 @@
+body{
+    background:teal;
+    margin:0;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+form{
+text-align:center;
+}
+/*
+=================================================
+BOOKMARKS
+=================================================
+*/
+.bookmarks{
+    padding:30px;
+    clear:both;
+ }
+ .bookmarks i{
+    font-size:42px;
+    margin:0 20px;
+    color:#ffecc3;
+    transition:.15s;
+    vertical-align: top;
+    cursor:pointer;
+ }
+ .bookmarks i:hover{
+    font-size:72px;
+    position:relative;
+ }
+ 
+ #clock{
+ position:absolute;
+ bottom:10px;
+ right:10px;
+ font-size:20px;
+ }
+
+/*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
+#note{
+    width:250px;
+    height:250px;
+    resize: none;
+    background:#F3F19D;
+    padding:15px;
+    border:none;
+    position: absolute;
+    bottom:50px;
+    left:50px;
+    font-family:sans-serif;
+   }
+
+/*
+=================================================
+SEARCH BAR
+=================================================
+*/
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    float:left;
+    border:none;
+    padding:10px;
+    outline:none;
+ }
+ .search-bar{
+    width:80%;
+ }
+ .submit-button{
+    width:15%;
+    background:#000;
+    color:#FFF;
+ }
+ 
+/*
+=================================================
+CALCULATOR
+=================================================
+*/
+ #calc{
+    transition:.2s;
+    opacity:0;
+}
+
+
+h1{
+    margin-top:50px;
+    font-size:75px;
+}
+.bookmarks i{
+margin:0 15px;
+}
+}
